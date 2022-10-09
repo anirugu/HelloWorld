@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - master # Default release branch, may also be named 'master' or 'develop'
+      - main # Default release branch, may also be named 'master' or 'develop'
 jobs:
   publish:
     name: build, pack & publish
